@@ -1,0 +1,10 @@
+--select * from EmployeeData
+/*--select * from CompanyData.EmployeeData when multiple databases and tables
+select E_Name from EmployeeData*/
+--insert into EmployeeData(E_Name,E_Phn,E_Address,E_PAN) values("Samantha",9854102368,"36-D,Canada","OKJH985O")
+
+--UPDATE EmployeeData set E_Name="John Thomas" where E_Name = "John"
+--delete from EmployeeData where e_name="John Thomas"
+
+select e_name,e_id,salary from EmployeeData where salary>20000 and salary<50000 order by salary,e_name
+
